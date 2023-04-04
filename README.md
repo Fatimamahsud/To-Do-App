@@ -1,5 +1,7 @@
 A Simple To Do app developed in React Native CLI. The user can perform all the CRUD Operations.
 
-!(https://user-images.githubusercontent.com/76597173/229899124-8d638e2d-4622-40b3-ab36-2e3121427c78.jpeg)(https://user-images.githubusercontent.com/76597173/229899152-87b4aa4b-f2d3-4a1a-ba56-831b83910d0c.jpeg) (https://user-images.githubusercontent.com/76597173/229899174-75922c1d-29e3-44a0-b8b4-bb5546a000dd.jpeg)(https://user-images.githubusercontent.com/76597173/229899193-bd6a94be-5a0c-46de-9a5e-b28c219712d1.jpeg)
+![1](https://user-images.githubusercontent.com/76597173/229899872-1ab1e0e7-2807-46a4-80eb-73abb3c1ee6b.jpeg) ![2](https://user-images.githubusercontent.com/76597173/229899885-628434b9-211e-474f-9530-6f450c44f942.jpeg)
+![3](https://user-images.githubusercontent.com/76597173/229899894-b8d21f82-1c8a-4a24-883c-e24c3376154d.jpeg) ![4](https://user-images.githubusercontent.com/76597173/229899899-6e59b830-f4dc-4e41-b42d-62b773bb3ee6.jpeg)
+
 
 
