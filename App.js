@@ -6,10 +6,8 @@ import Task from "./Components/Task"
 export default function App() {
   const [task, setTask] = useState();
   const [taskItems, setTaskItems] = useState([]);
-  const [count, setCount] = useState([1]);
   const [data, setData] = useState([]);
-  const [text, setText] = useState('');
-  const [edit, setEdit] = useState(0);
+  const [count, setCount] = useState([1]);
   const [index, setIndex] = useState();
 
   const incrementCount = () => {
@@ -25,22 +23,11 @@ export default function App() {
     setItem('');
     Keyboard.dismiss();
   };
-  const onSubmitEdit = () => {
-    editItem(index, text);
-    setEdit(0);
-  };
-  const completeTask = (index) => {
-    let itemsCopy = [...taskItems];
-    itemsCopy.splice(index, 1);
-    setTaskItems(itemsCopy)
-  }
 
-  const editItem = (index, newText) => {
-    console.log(index);
-    console.log(newText);
+  const editItem = (index, Text) => {
     setEdit(1);
-    const newData = [...data];
-    newData[index] = {...newData[index], text: newText};
+    const Text = [...data];
+    newData[index] = {...newData[index], text: Text};
     setData(newData);
     setText('');
    
